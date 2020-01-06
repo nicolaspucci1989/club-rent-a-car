@@ -42,7 +42,12 @@ header,
 }
 
 #streak h1 {
+  font-size: 1.9rem;
   font-style: italic;
+}
+
+#streak h2 {
+  font-size: 1.2rem;
 }
 
 #card {
@@ -58,6 +63,19 @@ header,
     height: 50px;
 }
 
+#img-alojamiento {
+  content: url('../img/alojamiento.jpg');
+}
+
+#img-gastronomia {
+  content: url('../img/gastronomia.png');
+}
+
+#img-actividades {
+  content: url('../img/actividad.jpg');
+}
+
+.l-text,
 p.l-text {
   font-size: 1.1rem;
 }
