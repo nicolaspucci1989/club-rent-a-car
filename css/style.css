@@ -34,10 +34,7 @@ header,
 }
 
 #home {
-    background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%2821%29.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: url('../img/high-speed-car.jpg') no-repeat center center/cover;
 }
 
 #streak {
