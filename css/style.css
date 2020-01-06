@@ -1,4 +1,8 @@
 /* Original Styles */
+:root {
+  --primary-color: #24355c;
+}
+
 html,
 body,
 header,
@@ -31,6 +35,23 @@ header,
     .navbar {
       box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
     }
+}
+
+.main-color {
+  background-color: var(--primary-color);
+}
+
+.transport-lp .icon-area .circle-icon i {
+  background-color: var(--primary-color);
+}
+
+.blue-text {
+  color: var(--primary-color);
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: var(--primary-color);
 }
 
 #home {
@@ -67,8 +88,8 @@ header,
   margin-top: 1.2rem;
 }
 
-#servicio-entrega .icon-area strong::after {
-}
+/* #servicio-entrega .icon-area strong::after {
+} */
 
 #img-alojamiento {
   content: url('../img/alojamiento.jpg');
