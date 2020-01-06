@@ -53,3 +53,11 @@ header,
 #logo-img {
     height: 50px;
 }
+
+p.l-text {
+  font-size: 1.2rem;
+}
+
+#quienes-somos-img {
+  content: url('https://mdbootstrap.com/img/Photos/Horizontal/Technology/4-col/img%20%288%29.jpg');
+}
