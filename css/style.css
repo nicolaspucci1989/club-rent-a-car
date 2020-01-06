@@ -38,7 +38,7 @@ header,
 }
 
 #streak {
-    background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%2821%29.jpg')
+    background: url('../img/sur-04.jpg') no-repeat top center/cover;
 }
 
 #streak h1 {
