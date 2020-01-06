@@ -63,6 +63,13 @@ header,
     height: 50px;
 }
 
+#service-row div {
+  margin-top: 1.2rem;
+}
+
+#servicio-entrega .icon-area strong::after {
+}
+
 #img-alojamiento {
   content: url('../img/alojamiento.jpg');
 }
@@ -90,4 +97,22 @@ p.l-text {
 
 .container h2 {
   text-align: center;
+}
+
+/* Contacto */
+.map-container {
+  height: 230px;
+  position: relative;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#contacto p {
+  display: inline;
 }
