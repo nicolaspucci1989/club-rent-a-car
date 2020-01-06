@@ -61,3 +61,11 @@ p.l-text {
 #quienes-somos-img {
   content: url('../img/car-travel-sun.jpg');
 }
+
+.container h1 {
+  text-align: center;
+}
+
+.container h2 {
+  text-align: center;
+}
