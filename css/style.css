@@ -6,6 +6,12 @@ header,
   height: 100%;
 }
 
+@media screen and (max-width: 374px) {
+  main div.container-fluid{
+    margin-top: 50px;
+  }
+}
+
 @media (min-width: 560px) and (max-width: 740px) {
   html,
   body,
