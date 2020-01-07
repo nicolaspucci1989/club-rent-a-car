@@ -80,12 +80,22 @@ header,
     padding-bottom: 0;
     padding-top: 0;
 }
+
 #logo-img {
     height: 50px;
 }
 
 #service-row div {
   margin-top: 1.2rem;
+}
+
+#whatsapp {
+  display: block;
+  margin: auto;
+  height: 4rem;
+}
+
+#whatsapp:hover {
 }
 
 /* #servicio-entrega .icon-area strong::after {
