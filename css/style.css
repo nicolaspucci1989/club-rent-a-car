@@ -58,6 +58,10 @@ header,
     background: url('../img/high-speed-car.jpg') no-repeat center center/cover;
 }
 
+i.fab {
+  color: #fff;
+}
+
 #streak {
     background: url('../img/sur-04.jpg') no-repeat top center/cover;
 }
@@ -81,8 +85,25 @@ header,
     padding-top: 0;
 }
 
+nav ul li a {
+  border-radius: 10px;
+}
+
+nav ul li.nav-item a.nav-link:hover {
+  background-color: #3D52D5;
+}
+
 #logo-img {
     height: 50px;
+}
+
+.navbar-brand {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navbar-brand:hover {
+  background-color: #3D52D5;
 }
 
 #service-row div {
