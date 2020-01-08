@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
 /* Original Styles */
 :root {
   --primary-color: #24355c;
@@ -115,6 +121,13 @@ nav ul li.nav-item a.nav-link:hover {
 }
 
 #whatsapp {
+  background-image: linear-gradient(180deg,#60d66a 0,#20b038);;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px 20px;
   display: block;
   margin: auto;
   height: 4rem;
