@@ -120,7 +120,7 @@ nav ul li.nav-item a.nav-link:hover {
 } */
 
 #img-alojamiento {
-  content: url('../img/atardecer-1.jpg');
+  content: url('../img/alojamiento.jpg');
 }
 
 #img-gastronomia {
@@ -128,7 +128,7 @@ nav ul li.nav-item a.nav-link:hover {
 }
 
 #img-actividades {
-  content: url('../img/barco-2.jpg');
+  content: url('../img/actividad.jpg');
 }
 
 .l-text,
