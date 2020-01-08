@@ -58,6 +58,10 @@ header,
     background: url('../img/high-speed-car.jpg') no-repeat center center/cover;
 }
 
+hr {
+  max-width: 1100px;
+}
+
 i.fab {
   color: #fff;
 }
@@ -164,4 +168,9 @@ p.l-text {
 
 #contacto p {
   display: inline;
+}
+
+/* Flota */
+div.card-body a {
+  cursor: unset;
 }
