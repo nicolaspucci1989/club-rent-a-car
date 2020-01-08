@@ -133,6 +133,10 @@ nav ul li.nav-item a.nav-link:hover {
   height: 4rem;
 }
 
+#whatsapp:hover {
+  background-image: linear-gradient(180deg,#20b038 0,#29bb41)
+}
+
 /* #servicio-entrega .icon-area strong::after {
 } */
 
