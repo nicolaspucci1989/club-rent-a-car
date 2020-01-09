@@ -81,7 +81,8 @@ i.fab {
 }
 
 #streak {
-    background: url('../img/atardecer-2.jpg') no-repeat top center/cover;
+    background: url('../img/atardecer-2.jpg') no-repeat center -250px;
+    background-attachment: local;
 }
 
 #streak h1 {
