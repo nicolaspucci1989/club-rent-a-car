@@ -470,7 +470,10 @@
           <!--Grid column-->
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             
-            <form name="contacto" action="https://getsimpleform.com/messages?form_api_token=fd5a339aafe31aa65cba95d2c5334ed8" method="POST">
+            <!-- <form name="contacto" action="https://getsimpleform.com/messages?form_api_token=fd5a339aafe31aa65cba95d2c5334ed8" method="POST">
+              <input type="hidden" name="redirect_to" value="https://club-rentacar.com/index.html#gracias"> -->
+            <form name="contacto">
+              <input type="hidden" name="redirect_to" value="127.0.0.1:5500/index.html#gracias">
               <!-- Material outline input -->
               <div class="md-form md-outline mt-3">
                 <input type="email" name="email" id="form-email" class="form-control">
@@ -523,6 +526,9 @@
           </div>
           <!--Grid column-->
   
+          <div id="contacto-gracias" class="hidden">
+            <h3 id="gracias">Gracias por contactarse con nosotros</h3>
+          </div>
         </div>
         <!--Grid row-->
     

@@ -202,6 +202,9 @@ p.l-text {
   display: inline;
 }
 
+/* Esconder mensaje de contacto */
+.hidden { display: none; }
+
 /* Flota */
 div.card-body a {
   cursor: unset;
