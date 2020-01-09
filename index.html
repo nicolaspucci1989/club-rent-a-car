@@ -469,32 +469,35 @@
     
           <!--Grid column-->
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-    
-            <!-- Material outline input -->
-            <div class="md-form md-outline mt-3">
-              <input type="email" id="form-email" class="form-control">
-              <label for="form-email">E-mail</label>
-            </div>
+            
+            <form name="contacto" action="https://getsimpleform.com/messages?form_api_token=db36630fa21e460574fc5f3bdfff4d89" method="POST">
+              <!-- Material outline input -->
+              <div class="md-form md-outline mt-3">
+                <input type="email" name="email" id="form-email" class="form-control">
+                <label for="form-email">E-mail</label>
+              </div>
 
-            <!-- Material outline input -->
-            <div class="md-form md-outline mt-3">
-              <input type="text" id="form-phone" class="form-control">
-              <label for="form-phone">Tel&eacutefono</label>
-            </div>
-    
-            <!-- Material outline input -->
-            <div class="md-form md-outline">
-              <input type="text" id="form-subject" class="form-control">
-              <label for="form-subject">Asunto</label>
-            </div>
-    
-            <!--Material textarea-->
-            <div class="md-form md-outline mb-3">
-              <textarea id="form-message" class="md-textarea form-control" rows="3"></textarea>
-              <label for="form-message">Mensaje</label>
-            </div>
-    
-            <button type="submit" class="btn btn-blue btn-sm ml-0">Enviar<i class="far fa-paper-plane ml-2"></i></button>
+              <!-- Material outline input -->
+              <div class="md-form md-outline mt-3">
+                <input type="text" name="telefono" id="form-phone" class="form-control">
+                <label for="form-phone">Tel&eacutefono</label>
+              </div>
+      
+              <!-- Material outline input -->
+              <div class="md-form md-outline">
+                <input type="text" name="asunto" id="form-subject" class="form-control">
+                <label for="form-subject">Asunto</label>
+              </div>
+      
+              <!--Material textarea-->
+              <div class="md-form md-outline mb-3">
+                <textarea id="form-message" name="mensaje" class="md-textarea form-control" rows="3"></textarea>
+                <label for="form-message">Mensaje</label>
+              </div>
+      
+              <button type="submit" value="" class="btn btn-blue btn-sm ml-0">Enviar<i class="far fa-paper-plane ml-2"></i></button>
+            </form>
+
     
           </div>
           <!--Grid column-->
@@ -515,9 +518,9 @@
               <i class="fas fa-clock"></i>
               <p class="font-weight-bold">9 a 20 hs</p>
     
-            </div>
-            <!--Grid column-->
-    
+          </div>
+          <!--Grid column-->
+  
         </div>
         <!--Grid row-->
     
