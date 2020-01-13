@@ -27,8 +27,16 @@ header,
 }
 
 @media (max-width: 375px) {
+  #home .row div {
+    margin-top: 2.3rem;
+  }
+
   #home h1 {
     font-size: 2.7rem;
+  }
+
+  #lead-heading-text {
+    margin-top: ;
   }
 }
 
@@ -151,6 +159,26 @@ nav ul li.nav-item a.nav-link:hover {
   background-image: linear-gradient(180deg,#20b038 0,#29bb41)
 }
 
+#lead-heading-text{
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 320px){
+  #lead-heading-text {
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+  }
+
+  #home .row div {
+    margin-top: 1.2rem;
+  }
+
+  #home h1 {
+    font-size: 2.3rem;
+  }  
+}
 
 
 /* #servicio-entrega .icon-area strong::after {
