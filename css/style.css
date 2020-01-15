@@ -141,14 +141,16 @@ nav ul li.nav-item a.nav-link:hover {
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 13px 20px 20px;
   display: block;
   margin: auto;
-  height: 4rem;
+  line-height: 0;
+  height: 3rem;
 }
 
 #whatsapp a{
+  display: inline-block;
   color: #fff;
 }
 
