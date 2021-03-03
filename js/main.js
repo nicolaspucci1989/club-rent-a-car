@@ -1,5 +1,13 @@
-const mes = new Date().getMonth();
-const abril = 3;
-const descuento = document.getElementById('descuento');
+const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
+  'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+const thisMonth = new Date().getMonth();
+const button = `
+  <button class="btn btn-red">
+    <h5>25% de descuento para ${months[thisMonth]} y ${months[(thisMonth + 1) % months.length]}</h5>
+  </button>
+`
 
-if(mes > abril) { descuento.style.display = 'none'};
+const discount = document.getElementById('descuento');
+
+discount.innerHTML = button
+
