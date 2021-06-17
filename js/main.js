@@ -3,7 +3,7 @@ const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
 const thisMonth = new Date().getMonth();
 const button = `
   <button class="btn btn-red">
-    <h5>25% de descuento para ${months[thisMonth]} y ${months[(thisMonth + 1) % months.length]}</h5>
+    <h5>30% OFF</h5>
   </button>
 `
 
