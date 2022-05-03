@@ -10,8 +10,3 @@ const button = `
 `
 const discount = document.getElementById('descuento');
 discount.innerHTML = button
-
-
-const titleContent = `30% off ${thisMonthString} y ${nextMonthString} | Club Rent a Car - Alquiler de Autos en Bariloche, Villa La Angostura, San Martin de los andes`
-
-const title = document.querySelector('head > title').innerHTML = titleContent
