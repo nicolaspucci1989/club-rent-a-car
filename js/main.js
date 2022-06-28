@@ -1,7 +1,7 @@
 const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
 const thisMonth = new Date().getMonth();
-const thisMonthString = months[thisMonth];
-const nextMonthString = months[(thisMonth + 1) % months.length];
+const thisMonthString = months[thisMonth + 2];
+const nextMonthString = months[(thisMonth + 3) % months.length];
 
 const button = `
   <button class="btn btn-red">
