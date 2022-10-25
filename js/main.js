@@ -5,7 +5,7 @@ const nextMonthString = months[(thisMonth + 3) % months.length];
 
 const button = `
   <button class="btn btn-red">
-    <h5>30% de descuento para Octubre y Noviembre</h5>
+    <h5>30% de descuento para Noviembre y Diciembre</h5>
   </button>
 `
 const discount = document.getElementById('descuento');
