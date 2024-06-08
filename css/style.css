@@ -195,7 +195,20 @@ nav ul li.nav-item a.nav-link:hover {
 
 
 /* #servicio-entrega .icon-area strong::after {
+  margin-left: 0 !important;
 } */
+
+.centered-line {
+  width: 70px;
+  height: 2px; /* Adjust height as needed */
+  background-color: black; /* Color of the line */
+  margin: 0 auto; /* Center the line */
+}
+
+.icon-area strong::after {
+ content: none;
+}
+
 
 #img-alojamiento {
   content: url('../img/atardecer-1.jpg');
